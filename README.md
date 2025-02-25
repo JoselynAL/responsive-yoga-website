@@ -8,5 +8,5 @@ The designs used in this project are sourced from Figma and credited to their re
 
 ## 👥 Contributors
 
-- [Joselyn Yajaira Arias Lopez](https://github.com/JoselynAL) - Dev upper part(header, crafting section, elevate section and our services section) with responsive web design & get some imgs
-- [Santiago Faé Poffo]() - Dev lower part(happy stories section, contact us section, stay updated section and footer) with responsive web design & get some imgs
+- [Santiago Faé Poffo](https://santiago-fae.github.io/) - Dev upper part(header, crafting section, elevate section and our services section) with responsive web design & get some imgs
+- [Joselyn Yajaira Arias Lopez](https://github.com/JoselynAL) - Dev lower part(happy stories section, contact us section, stay updated section and footer) with responsive web design & get some imgs
