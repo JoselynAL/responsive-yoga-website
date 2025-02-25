@@ -5,15 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/tailwind.min.css">
-  <title>chandan-design-agency-website</title>
+  <title>Yoga</title>
 </head>
 <body>
   <main>
     <!-- Santi starts here -->
-    <header>
-      <img id="logo" src="./assets/Logo large.png" />
-      <img id="hamburger" src="./assets/hamburger 1.png" />
-    </header>
+		<header class="header">
+			<div class="py-5 px-10">
+				<div class="containerExtended">
+					<div class="flex justify-between items-center">
+						<!-- <a href="./" class="logo"><img src="" alt=""></a> -->
+						<a href="./">
+							<h1 class="titleLogo">Yoga</h1>
+						</a>
+						<div class="justify-end items-center hidden sm:flex">
+							<nav class="boxMainMenu">
+								<ul class="flex gap30 title-color">
+									<li class=""><a href="#">Home</a></li>
+									<li><a href="#">Services 1</a></li>
+									<li><a href="#">Services 2</a></li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+            <div class="flex">
+              <img src="./assets/header-moon.svg" alt="">
+              <div class="flex ml-4 sm:hidden">
+                <label for="MenuHamburguer" class="hamburger hamburger--squeeze">
+                  <img src="./assets/hamburguer-menu.svg" alt="Menu">
+                </label>
+                <input type="checkbox" id="MenuHamburguer" class="hidden hamburger-checkbox">
+              </div>
+            </div>
+						<div class="hideMenu">
+              <div class="menuClose">
+                <label for="MenuHamburguer">
+                  <img src="./assets/close-icon.svg" alt="">
+                </label>
+              </div>
+              <nav class="fullScreenMenu">
+                <ul>
+                  <li><a href="./" class="selected">Home</a></li>
+                  <li><a href="./pages/about.html">About</a></li>
+                  <li><a href="./pages/alaska.html">Alaska</a></li>
+                  <li><a href="./pages/contact.html">Contact</a></li>
+                </ul>
+              </nav>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</header>
 
     <main>
       <section class="section1">
