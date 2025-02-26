@@ -1,8 +1,144 @@
 /* Santi starts here */
 
 
-/* Jocelyn starts here */
+/* Joselyn starts here */
 
+/********** Section 1 *********/
+.section-1 {
+  display: flex;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  padding: 30px;
+  width: 100%;
+  height: auto;
+}
+/* left part */
+.left-part {
+  display: block;
+  margin-left: 70px;
+  gap: 0;
+  justify-content: left;
+  align-items: left;
+}
+
+.anytime-subtitle {
+  width: 240px;
+  color: #220953;
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 45px;
+}
+
+.anytime-p {
+  color: #4B3E65;
+  font-size: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.anytime-bt {
+  background: linear-gradient(45deg, #FF52AF, #9F53FF);
+  width: 35%;
+  border-radius: 64px;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.anytime-bt-text {
+  font-size: 8px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  display: inline-flex;
+  margin-bottom: 10px;
+}
+
+.anytime-bt-vector {
+  width: 8px;
+  margin-left: 5px;
+}
+
+/* right part */
+.right-part {
+  display: contents;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+  width: 680px;
+  position: relative;
+}
+
+.yoga-1,
+.yoga-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.yoga-1-img,
+.yoga-2-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+/* Yoga 1 img and label */
+.yoga-1 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  z-index: 2;
+}
+
+.yoga-1-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.yoga-1-label {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: -50px;
+  text-align: center;
+  display: flex;
+  background-color: white;
+  border-radius: 16px;
+  padding: 5px 10px;
+}
+
+.yoga-1-label-text {
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #FF52AF, #9F53FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.yoga-1-label-icon {
+  width: 20px;
+}
+
+/* Yoga 2 img and label */
+.yoga-2 {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  z-index: 1;
+}
+
+.yoga-2-img {
+  width: 100%;
+  height: auto;
+  display: block;
+} 
 
 
 /* ########## */
