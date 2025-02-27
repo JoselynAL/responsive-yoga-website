@@ -127,11 +127,34 @@ body:has(#DarkColor:checked) .fontSize56, body:has(#DarkColor:checked) .fontSize
   border-radius: 64px;
   color: #FFF;
 }
+body:has(#DarkColor:checked) .buttonHome {
+  background: linear-gradient(90deg, #FF52AF 0%, #9F53FF 100%);
+  padding: 10px 35px;
+  border-radius: 64px;
+  color: #FFF;
+}
+
+body:has(#DarkColor:checked) .buttonHome img {
+  background: transparent;
+  display: inline-block;
+  margin-left: 3px;
+}
 
 .buttonHome img {
   background: transparent;
   display: inline-block;
   margin-left: 3px;
+}
+
+.imgWomanYoga {
+  width: 400px;
+  background-image: url('../assets/woman-yoga.png');
+  background-size: cover;
+  height: 230px;
+}
+
+body:has(#DarkColor:checked) .imgWomanYoga {
+  background-image: url('../assets/dark-women-yoga.png');
 }
 
 .section2 .starImagesBackground {
@@ -178,6 +201,7 @@ body:has(#DarkColor:checked) .fontSize56, body:has(#DarkColor:checked) .fontSize
 	body:has(#MenuHamburguer:checked) .hideMenu {
 		display: block;
 	}
+  
   .fullScreenMenu {
     position: fixed;
 		top: 0;
@@ -187,6 +211,18 @@ body:has(#DarkColor:checked) .fontSize56, body:has(#DarkColor:checked) .fontSize
 		background:#ededed;
 		z-index: 999;
 	}
+
+  body:has(#DarkColor:checked) .fullScreenMenu {
+    background: #a8a8a8;
+  }
+
+  body:has(#DarkColor:checked) .fullScreenMenu ul, body:has(#DarkColor:checked) .fullScreenMenu ul li, body:has(#DarkColor:checked) .fullScreenMenu ul li a {
+    background: #a8a8a8;
+  }
+
+  body:has(#DarkColor:checked) .fullScreenMenu ul, body:has(#DarkColor:checked) .fullScreenMenu ul li {
+    color: #D9D9D9;  
+  }
 
 	.fullScreenMenu ul {
 		display: flex;
@@ -205,16 +241,25 @@ body:has(#DarkColor:checked) .fontSize56, body:has(#DarkColor:checked) .fontSize
     background: transparent;
 	}
 
-	.fullScreenMenu ul .selected {
-    background: linear-gradient(90deg, #FF52AF 0%, #9F53FF 100%);
-    -webkit-background-clip: text;
+	.fullScreenMenu ul li a.selected {
+    background: linear-gradient(90deg, #FF52AF 0%, #9F53FF 100%) !important;
+    -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent;
   }
+  
   .menuClose {
-    position: absolute;
+    position: fixed;
     z-index: 1000;
     right: 50px;
     top: 50px;
+  }
+
+  body:has(#DarkColor:checked) .menuClose img {
+    background-color: #a8a8a8;
+  }
+
+  .titleDifferent {
+    margin-right: 41px;
   }
 
   .titleH1 {
@@ -238,12 +283,13 @@ body:has(#DarkColor:checked) .fontSize56, body:has(#DarkColor:checked) .fontSize
 
   .imgWomanYoga {
     width: 230px;
+    height: 132px;
   }
 
   .section2 .starImagesBackground {
     width: 50px;
     top: 25px;
-    left: -18px;
+    left: -9px;
   }
 
   .textNormal {
