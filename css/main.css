@@ -79,6 +79,38 @@ header .titleLogo {
   font-size: 24px;
 }
 
+.boxMainMenu ul li ul {
+  background-color: #ffffff;
+  display: none;
+  position: absolute;
+  background: white;
+  padding: 12px;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.boxMainMenu ul li ul li {
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+body:has(#DarkColor:checked) .boxMainMenu ul li ul, body:has(#DarkColor:checked) .boxMainMenu ul li ul li {
+  background-color: #D1C0F1;
+  color: #220953;
+}
+
+.boxMainMenu ul li ul li:hover {
+  background: linear-gradient(90deg, #FF52AF 0%, #9F53FF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul li:hover > ul {
+  display: block;
+}
+
+
 .section1 {
   color: #220953;
 }
