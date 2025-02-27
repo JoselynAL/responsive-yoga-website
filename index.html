@@ -3,81 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/tailwind.min.css">
-  <title>chandan-design-agency-website</title>
+  <title>Yoga</title>
 </head>
 <body>
   <main>
     <!-- Santi starts here -->
-    <header>
-      <img id="logo" src="./assets/Logo large.png" />
-      <img id="hamburger" src="./assets/hamburger 1.png" />
-    </header>
+		<header class="header">
+			<div class="py-5 px-10">
+				<div class="containerExtended">
+					<div class="flex justify-between items-center">
+						<!-- <a href="./" class="logo"><img src="" alt=""></a> -->
+						<a href="./">
+							<h1 class="titleLogo">Yoga</h1>
+						</a>
+						<div class="justify-end items-center hidden sm:flex">
+							<nav class="boxMainMenu">
+								<ul class="flex gap30 title-color colorGreyDark ">
+									<li class=""><a href="#">Home</a></li>
+									<li><a href="#">Services 1</a></li>
+									<li><a href="#">Services 2</a></li>
+									<li><a href="#">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+            <div class="flex">
+              <div>
+                <label for="DarkColor">
+                  <div class="iconToDarkMode"></div>
+                </label>
+                <input type="checkbox" id="DarkColor" class="hidden">
+
+              </div>
+              <div class="flex ml-4 sm:hidden">
+                <label for="MenuHamburguer" class="">
+                  <img src="./assets/hamburguer-menu.svg" alt="Menu">
+                </label>
+                <input type="checkbox" id="MenuHamburguer" class="hidden">
+              </div>
+            </div>
+						<div class="hideMenu">
+              <div class="menuClose">
+                <label for="MenuHamburguer">
+                  <img src="./assets/close-icon.svg" alt="">
+                </label>
+              </div>
+              <nav class="fullScreenMenu">
+                <ul>
+									<li class=""><a class="selected" href="#">Home</a></li>
+									<li><a href="#">Services 1</a></li>
+									<li><a href="#">Services 2</a></li>
+									<li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</header>
 
     <main>
-      <section class="section1">
-        <div>
-          <h1>
-            Crafting <span class="substitleBlube">Visual</span> Stories:
-            <br />Unleashing Creative Essence
-          </h1>
-          <button>
-            Let's talk <img src="./assets/Right arrow icon 1.png" />
-          </button>
+      <section class="section1 p-6 sm:p-12">
+        <div class="flex items-center flex-col gap10 sm:flex-row sm:items-start sm:pl-10 ">
+          <div class="flex flex-col items-center sm:w-1/2 sm:items-start">
+            <h1 class="titleH1 p-3 loraFont text-center sm:text-left">Choose Your 
+              Best <span class="titleDifferent loraFont">Yoga</span>
+              <img class="inline" src="./assets/home-star.png" alt="">
+              Teacher
+            </h1>
+            <p class="mb-5 text-center sm:w-3/5 sm:text-left colorGreyDark">Calm your mind and body with the best yoga teachers available, relax your day and stay positive.</p>
+            <div class="mb-5">
+              <button class="buttonHome">Get Started Free <img src="./assets/right-arrow.svg" alt=""></button>
+            </div>
+            <div class="flex gap50">
+              <div class="flex flex-col">
+                <p class="fontSize56">300+</p>
+                <p class="fontSize14">Yoga Class</p>
+              </div>
+              <div class="flex flex-col">
+                <p class="fontSize56">40+</p>
+                <p class="fontSize14">Participants</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <img class="mt-5 sm:mt-0" src="./assets/home-yoga.png" alt="">
+          </div>
         </div>
-        <div class="heroimage">
-          <img id="hero" src="./assets/Hero img.png" />
-          <img id="pattern" src="./assets/Pattern.png"
+      </section>
+      <section class="section2 pt-12 p-8 sm:p-12">
+        <div class="flex flex-col sm:flex-row">
+          <div class="flex justify-evenly items-center sm:w-1/2">
+            <h2 class="fontSize56">#01</h2>
+            <div class="imgWomanYoga"></div>
+<!--             <img class="imgWomanYoga" src="./assets/woman-yoga.png" alt="">
+ -->          </div>
+          <div class="flex flex-col justify-evenly items-center sm:w-1/2 sm:flex-row">
+            <div class="sm:w-1/2">
+              <img class="starImagesBackground" src="./assets/star-woman.png" alt="">
+              <p class="relative text-center textNormal colorGreyDark sm:text-left">Get a list of specific influencers in your niche at your fingertips so you can focus on managing your status.</p>
+            </div>
+            <button><img src="./assets/button-circle.png" alt=""></button>
+          </div>
         </div>
       </section>
 
-      <section class="section2">
-        <h2>
-          Elevate Your <span class="underline-image">Brand Identity</span>
-        </h2>
-        <p>
-          Unlock the true potential of your brand. Our passionate team of
-          creative experts is committed to delivering innovative and tailor-made
-          solutions that elevate your brand to new heights.
-        </p>
-        <div>
-          <img src="./assets/Img left.png" />
-          <p>
-            We believe that a strong brand is the cornerstone of every
-            successful business. We are a passionate team of branding experts
-            dedicated to helping businesses like yours create a unique and
-            compelling brand identity.
-            <br /><br />With our extensive experience and deep understanding of
-            brand strategy, design, and storytelling, we collaborate closely
-            with our clients to craft brand experiences that resonate with their
-            target audience. Our goal is to create brands that not only capture
-            attention but also foster trust, loyalty, and recognition.
-          </p>
-        </div>
-      </section>
+      <section class="section3 px-6 py-12 sm:px-20">
+        <div class="flex flex-col-reverse items-center justify-center gap30 sm:items-start sm:flex-row">
+          <div class="relative">
+            <div class="boxOne br12 p-1 sm:p-3">
+              <div class="flex br12">
+                <img class="mr-5" src="./assets/heart-box.png" alt="">
+                <div class="flex flex-col">
+                  <p class="responsiveT1 colorGreyDark">Heart Rate</p>
+                  <p class="responsiveT2 color-gradient">168 bpm</p>
+                </div>
+              </div>
+            </div>
+            <img class="healthFitImage" src="./assets/health-fitness.png" alt="">
+            <div class="boxTwo br12 p-1 sm:p-3">
+              <div class="flex br12 flex-col">
+                <p class="color-gradient responsiveT2">500+</p>
+                <p class="responsiveT1 colorGreyDark">Free Courses</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col justify-center gap50 sm:w-1/2 ">
+            <h2 class="fontSize64 text-center sm:text-left">Bring Happiness To Good Health!</h2>
+            <p class="w90 reposiveText text-center sm:text-left colorGreyDark">If you take care of your good health, take care of your mentality and lead a healthy life with positive thoughts every day.</p>
+            <div class="flex justify-center sm:justify-start sm:mt-5">
+              <button class="buttonHome">Let’s Start <img src="./assets/right-arrow.svg" alt=""></button>
+            </div>
 
-      <section class="section3">
-        <h2>Our <span class="substitleBlube">Services</span></h2>
-        <div>
-          <img src="./assets/Our services item 1.png" />
-          <img src="./assets/Our services item 2.png" />
-          <img src="./assets/Our services item 3.png" />
-          <img src="./assets/Our services item 4.png" />
-          <img src="./assets/Our services item 5.png" class="hiddenMobile" />
-          <img src="./assets/Our services item 6.png" class="hiddenMobile" />
-          <img src="./assets/Our services item 7.png" class="hiddenMobile" />
-          <img src="./assets/Our services item 8.png" class="hiddenMobile" />
+          </div>
         </div>
-        <button class="btn desktop">
-          Request a Quote<img
-            src="./assets/Right arrow icon 1.png"
-            id="arrow"
-          />
-        </button>
-        <button class="btn mobile">
-          View more<img src="./assets/Right arrow icon 1.png" id="arrow" />
-        </button>
       </section>
 
     <!-- Jocelyn starts here -->
