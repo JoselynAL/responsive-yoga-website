@@ -4,6 +4,10 @@
 /* Joselyn starts here */
 
 /********** Section 1 *********/
+.lower-part {
+  background-color: #F5F0FF;
+}
+
 .section-1 {
   display: flex;
   margin-top: 48px;
@@ -11,6 +15,7 @@
   padding: 30px;
   width: 100%;
   height: auto;
+  
 }
 /* left part */
 .left-part {
@@ -42,7 +47,6 @@
   border-radius: 64px;
   text-align: center;
   justify-content: center;
-  
 }
 
 .anytime-bt-text {
@@ -61,12 +65,12 @@
 
 /* right part */
 .right-part {
-  display: contents;
   gap: 0;
   justify-content: center;
   align-items: center;
   width: 680px;
   position: relative;
+  margin-left: 60px;
 }
 
 .yoga-1,
@@ -91,16 +95,17 @@
   height: 200px;
   position: relative;
   z-index: 2;
+  display: block;
 }
 
 .yoga-1-img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 100px;
 }
 
 .yoga-1-label {
-  display: block;
   position: absolute;
   top: 40px;
   right: -50px;
@@ -109,6 +114,10 @@
   background-color: white;
   border-radius: 16px;
   padding: 5px 10px;
+}
+
+.yoga-1-label-icon {
+  width: 20px;
 }
 
 .yoga-1-label-text {
@@ -122,23 +131,51 @@
   color: transparent;
 }
 
-.yoga-1-label-icon {
-  width: 20px;
-}
-
 /* Yoga 2 img and label */
 .yoga-2 {
   width: 300px;
   height: 200px;
   position: relative;
+  top: -60px;
+  margin-left: 60px;
   z-index: 1;
+  display: block;
 }
 
 .yoga-2-img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 100px;
 } 
+
+.yoga-2-label {
+  display: block;
+  position: absolute;
+  top: 140px;
+  right: 200px;
+  width: 160px;
+  text-align: center;
+  display: flex;
+  background-color: white;
+  border-radius: 16px;
+  padding: 5px 10px;
+}
+
+.yoga-2-label-icon {
+  width: 20px;
+}
+
+.yoga-2-label-text {
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #FF52AF, #9F53FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
 
 
 /* ########## */
