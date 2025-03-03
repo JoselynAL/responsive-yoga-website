@@ -309,7 +309,7 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 110px;
+  border-radius: 50% / 35%;
 }
 
 .yoga-1-label {
@@ -478,6 +478,7 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   background: linear-gradient(65deg, #FF52AF, #9F53FF);
   border-radius: 20px;
   margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 .join-subtitle {
@@ -521,7 +522,6 @@ body:has(#DarkColor:checked) .imgWomanYoga {
 
 .button {
   background: transparent;
-  
 }
 
 .join-bt {
@@ -541,10 +541,161 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   width: 12px;
 }
 
+/********** Footer *********/
+.footer {
+  background-color: #1E0849;
+  width: 100%;
+  padding: 20px 100px;
+}
+/* CONTENT 1 */
+.content-1-ft {
+  display: flex;
+  gap: 520px;
+  background-color: #1E0849;
+  margin-top: 10px;
+}
+/* YOGA */
+.yoga-ft {
+  background: transparent;
+  width: 300px;
+  padding: 20px 16px;
+}
 
+.yoga-ft-subtitle {
+  background: linear-gradient(75deg, #FF52AF, #9F53FF);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 16px;
+}
 
+.yoga-ft-text {
+  background: transparent;
+  color: #A197B4;
+  font-size: 12px;
+  margin-top: 20px;
+}
 
+/* INFO */
+.info-ft {
+  display: flex;
+  gap: 40px;
+  padding: 20px 16px;
+  background: transparent;
+}
+/* address */
+.address-ft {
+  background: transparent;
+  width: 120px;
+}
 
+.address-subtitle {
+  color: white;
+  background: transparent;
+  font-size: 16px;
+}
+
+.address-text {
+  color: #A197B4;
+  background: transparent;
+  font-size: 12px;
+  margin-top: 25px;
+}
+/* CONTACT */
+.contact-ft {
+  background: transparent;
+  width: 120px;
+}
+
+.contact-subtitle {
+  color: white;
+  background: transparent;
+  font-size: 14px;
+}
+
+.contact-text {
+  color: #A197B4;
+  background: transparent;
+  font-size: 12px;
+  margin-top: 25px;
+}
+/* OFFICE */
+.office-ft {
+  background: transparent;
+  width: 120px;
+}
+
+.office-subtitle {
+  color: white;
+  background: transparent;
+  font-size: 14px;
+}
+
+.office-text {
+  color: #A197B4;
+  background: transparent;
+  font-size: 12px;
+  margin-top: 25px;
+}
+
+.footer-separator {
+  width: 97%;
+  height: 1px;
+  background-color: #A197B4;
+  margin: 20px 15px 20px 15px;
+  opacity: 0.7;
+}
+
+/* CONTENT 2 */
+.content-2-ft {
+  display: flex;
+  gap: 670px;
+  background-color: #1E0849;
+  margin-top: 40px;
+}
+
+.icons-ft {
+  background: transparent;
+  width: 300px;
+  padding: 20px 16px;
+  display: flex;
+  gap: 30px;
+}
+
+.fb-icon-ft {
+  background: transparent;
+}
+
+.ins-icon-ft {
+  background: transparent;
+}
+
+.twit-icon-ft {
+  background: transparent;
+}
+
+.youtube-icon-ft {
+  background: transparent;
+}
+
+.copyright-ft {
+  font-size: 12px;
+  background: transparent;
+  width: 280px;
+  padding: 20px 16px;
+  display: flex;
+}
+
+.copyright-icon-ft {
+  background: transparent;
+  width: 10px;
+  margin-bottom: 3px;
+}
+
+.copyright-text {
+  background: transparent;
+  color: #A197B4;
+}
 /* ########## */
 /* RESPONSIVE */
 /* ########## */
