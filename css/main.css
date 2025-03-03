@@ -273,13 +273,11 @@ body:has(#DarkColor:checked) .imgWomanYoga {
 }
 
 .anytime-bt-vector {
-  margin-left: 3px;
-  
+  background: transparent;
 }
 
 /* right part */
 .right-part {
-  position: relative;
   margin: 0;
   height: auto;
 }
@@ -301,9 +299,10 @@ body:has(#DarkColor:checked) .imgWomanYoga {
 
 /* Yoga 1 img and label */
 .yoga-1 {
-  position: absolute;
+  position: relative;
   z-index: 2;
   display: block;
+  border-radius: 200px;
 }
 
 .yoga-1-img {
@@ -311,27 +310,27 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   height: auto;
   display: block;
   border-radius: 110px;
-  
 }
 
 .yoga-1-label {
   position: absolute;
-  top: 40px;
-  right: -50px;
+  top: 110px;
+  right: -30px;
   text-align: center;
   display: flex;
   background-color: white;
   border-radius: 8px;
-  padding: 8px 6px;
+  padding: 10px 10px;
 }
 
 .yoga-1-label-icon {
-  width: 20px;
+  width: 25px;
   margin-right: 5px;
+  background-color: white;
 }
 
 .yoga-1-label-text {
-  font-size: 10px;
+  font-size: 14px;
   align-items: center;
   justify-content: center;
   background: linear-gradient(45deg, #FF52AF, #9F53FF);
@@ -339,13 +338,14 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+  margin-top: 1px;
 }
 
 /* Yoga 2 img and label */
 .yoga-2 {
-  position: absolute;
+  position: relative;
   top: -60px;
-  margin-left: 60px;
+  margin-left: 70px;
   z-index: 1;
   display: block;
 }
@@ -360,22 +360,23 @@ body:has(#DarkColor:checked) .imgWomanYoga {
 .yoga-2-label {
   display: block;
   position: absolute;
-  top: 140px;
-  right: 200px;
-  width: 142px;
+  bottom: 65px;
+  width: 182px;
   text-align: center;
   display: flex;
   background-color: white;
   border-radius: 10px;
   padding: 8px 4px;
+  left: 10px;
 }
 
 .yoga-2-label-icon {
-  width: 20px;
+  width: 30px;
+  background-color: white;
 }
 
 .yoga-2-label-text {
-  font-size: 12px;
+  font-size: 14px;
   align-items: center;
   justify-content: center;
   background: linear-gradient(45deg, #FF52AF, #9F53FF);
@@ -383,6 +384,8 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
+  margin-top: 4px;
+  margin-left: 4px;
 }
 
 /********** Section 2 *********/
@@ -429,20 +432,21 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   justify-items: center;
   background: linear-gradient(65deg, #FF52AF, #9F53FF);
   border-radius: 100px;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   margin-top: 20px;
 }
 
 .follow-bt-text {
   font-size: 12px;
   color: white;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .follow-bt-vector {
   margin-top: 5px;
   width: 11px;
+  background: transparent;
 }
 
 .block-follow-img-2 {
