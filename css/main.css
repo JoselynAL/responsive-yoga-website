@@ -216,11 +216,16 @@ body:has(#DarkColor:checked) .imgWomanYoga {
 .section3 {
   color: #220953;
 }
-/* Jocelyn starts here */
+
+/* Joselyn starts here */
 /* Joselyn starts here */
 .lower-part {
   background-color: #F5F0FF;
   width: 100%;
+}
+
+body:has(#DarkColor:checked) .lower-part {
+  background-color: #210A3B;
 }
 
 /********** Section 1 *********/
@@ -249,11 +254,19 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   font-weight: inherit;
 }
 
+body:has(#DarkColor:checked) .anytime-subtitle {
+  color: #D1C0F1;
+}
+
 .anytime-p {
   color: #4B3E65;
   font-size: 16px;
   text-align: left;
   margin: 0;
+}
+
+body:has(#DarkColor:checked) .anytime-p {
+  color: #A094B8;
 }
 
 .anytime-bt {
@@ -272,7 +285,15 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   gap: 5px;
 }
 
+body:has(#DarkColor:checked) .anytime-bt-text {
+  background: transparent;
+}
+
 .anytime-bt-vector {
+  background: transparent;
+}
+
+body:has(#DarkColor:checked) .anytime-bt-vector {
   background: transparent;
 }
 
@@ -305,11 +326,26 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   border-radius: 200px;
 }
 
-.yoga-1-img {
+.yoga-1-img-light {
   width: 100%;
   height: auto;
   display: block;
   border-radius: 50% / 35%;
+}
+
+body:has(#DarkColor:checked) .yoga-1-img-light {
+  display: none;
+}
+
+.yoga-1-img-dark {
+  display: none;
+}
+
+body:has(#DarkColor:checked) .yoga-1-img-dark {
+  border-radius: 50% / 35%;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .yoga-1-label {
@@ -323,10 +359,18 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   padding: 10px 10px;
 }
 
+body:has(#DarkColor:checked) .yoga-1-label {
+  background-color: #372A51;
+}
+
 .yoga-1-label-icon {
   width: 25px;
   margin-right: 5px;
   background-color: white;
+}
+
+body:has(#DarkColor:checked) .yoga-1-label-icon {
+  background-color: #372A51;
 }
 
 .yoga-1-label-text {
@@ -340,6 +384,7 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   color: transparent;
   margin-top: 1px;
 }
+
 
 /* Yoga 2 img and label */
 .yoga-2 {
@@ -370,9 +415,17 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   left: 10px;
 }
 
+body:has(#DarkColor:checked) .yoga-2-label {
+  background-color: #372A51;
+}
+
 .yoga-2-label-icon {
   width: 30px;
   background-color: white;
+}
+
+body:has(#DarkColor:checked) .yoga-2-label-icon {
+  background-color: #372A51;
 }
 
 .yoga-2-label-text {
@@ -404,6 +457,20 @@ body:has(#DarkColor:checked) .imgWomanYoga {
 
 .block-follow-img-1 {
   border-radius: 140px;
+  display: block;
+}
+
+.block-follow-img-1-dark {
+  border-radius: 140px;
+  display: none;
+}
+
+body:has(#DarkColor:checked) .block-follow-img-1 {
+  display: none; 
+}
+
+body:has(#DarkColor:checked) .block-follow-img-1-dark {
+  display: block;
 }
 
 .subtitle-and-bt {
@@ -419,6 +486,10 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   justify-items: center;
   text-align: center;
   color: #220953;
+}
+
+body:has(#DarkColor:checked) .follow-subtitle {
+  color: #D1C0F1;
 }
 
 .highlight-word {
@@ -443,14 +514,36 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   margin-top: 14px;
 }
 
+body:has(#DarkColor:checked) .follow-bt-text {
+  background: transparent;
+}
+
 .follow-bt-vector {
   margin-top: 5px;
   width: 11px;
   background: transparent;
 }
 
+body:has(#DarkColor:checked) .follow-bt-vector {
+  background: transparent;
+}
+
 .block-follow-img-2 {
   border-radius: 140px;
+  display: block;
+}
+
+.block-follow-img-2-dark {
+  border-radius: 140px;
+  display: none;
+}
+
+body:has(#DarkColor:checked) .block-follow-img-2 {
+  display: none; 
+}
+
+body:has(#DarkColor:checked) .block-follow-img-2-dark {
+  display: block;
 }
 
 .block-2 {
@@ -460,13 +553,44 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   justify-content: center;
 }
 
-.block-follow-3 {
+body:has(#DarkColor:checked) .block-2 {
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.block-follow-img-3 {
   margin-right: 3rem;
   margin-top: 3rem;
 }
 
-.block-follow-4 {
+.block-follow-img-3-dark {
+  border-radius: 140px;
+  display: none;
+}
+
+body:has(#DarkColor:checked) .block-follow-img-3 {
+  display: none; 
+}
+
+body:has(#DarkColor:checked) .block-follow-img-3-dark {
+  display: block;
+}
+
+.block-follow-img-4 {
   margin-top: 3rem;
+}
+
+.block-follow-img-4-dark {
+  border-radius: 140px;
+  display: none;
+}
+
+body:has(#DarkColor:checked) .block-follow-img-4 {
+  display: none; 
+}
+
+body:has(#DarkColor:checked) .block-follow-img-4-dark {
+  display: block;
 }
 
 /********** Section 3 *********/
@@ -481,11 +605,19 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   margin-bottom: 70px;
 }
 
+body:has(#DarkColor:checked) .section-3 {
+  background-color: #210A3B;
+}
+
 .join-subtitle {
   font-size: 50px;
   justify-items: center;
   text-align: center;
   color: white;
+  background: transparent;
+}
+
+body:has(#DarkColor:checked) .join-subtitle {
   background: transparent;
 }
 
@@ -496,6 +628,10 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+body:has(#DarkColor:checked) .join-p {
+  background: transparent;
 }
 
 .join-part-3 {
@@ -509,6 +645,10 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   margin-bottom: 10px;
 }
 
+body:has(#DarkColor:checked) .join-part-3 {
+  background-color: white;
+}
+
 .join-part-text {
   justify-items: center;
   background-color: white;
@@ -520,7 +660,15 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   border-radius: 20px;
 }
 
+body:has(#DarkColor:checked) .join-part-text {
+  background: transparent;
+}
+
 .button {
+  background: transparent;
+}
+
+body:has(#DarkColor:checked) .button {
   background: transparent;
 }
 
@@ -539,6 +687,10 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   background: transparent;
   margin-left: 5px;
   width: 12px;
+}
+
+body:has(#DarkColor:checked) .bt-vector {
+  background: transparent;
 }
 
 /********** Footer *********/
@@ -638,12 +790,17 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   margin-top: 25px;
 }
 
+/* LINE SEPARATOR */
 .footer-separator {
   width: 97%;
   height: 1px;
   background-color: #A197B4;
   margin: 20px 15px 20px 15px;
   opacity: 0.7;
+}
+
+body:has(#DarkColor:checked) .footer-separator {
+  background-color: #A197B4;
 }
 
 /* CONTENT 2 */
@@ -847,5 +1004,260 @@ body:has(#DarkColor:checked) .imgWomanYoga {
   .gap50 {
     gap: 30px;
   }
-  /* Jocelyn starts here */
+  /* Joselyn starts here */
+  .lower-part {
+    padding: 15px;
+  }
+  
+  /* SECTION 1 */
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  /* Left Part */
+  .left-part {
+    gap: 10px; 
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .anytime-subtitle {
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .anytime-p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .anytime-bt {
+    width: 250px;
+    padding: 15px 12px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .anytime-bt-text {
+    font-size: 18px;
+  }
+  
+  .right-part {
+    position: relative;
+    margin: 0 auto;
+    width:100%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 340px;
+  }
+  
+  .yoga-1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 60%;                  
+    z-index: 2;                  
+  }
+
+  .yoga-2 {
+    position: absolute;
+    top: 120px;                 
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    z-index: 1;                 
+  }
+  
+  .yoga-1-img,
+  .yoga-1-img-light,
+  .yoga-1-img-dark,
+  .yoga-2-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50% / 35%;  
+  }
+  
+  .yoga-1-label {
+    position: absolute; 
+    top: 30px;       
+    right: -70px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px 8px;
+  }
+
+  .yoga-2-label {
+    position: absolute;
+    bottom: 20px;        
+    left: -50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 6px 8px;
+    width: 150px;
+  }
+
+  .yoga-1-label-icon,
+  .yoga-2-label-icon {
+    width: 20px;   
+  }
+  
+  .yoga-1-label-text,
+  .yoga-2-label-text {
+    font-size: 12px;  
+  }
+
+  
+  /* SECTION 2 */
+  .section-2 {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .block-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  
+  .subtitle-and-bt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0;
+  }
+  
+  .follow-subtitle {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+  
+  .follow-bt {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin: 0 auto;
+  }
+  
+  .follow-bt-text {
+    font-size: 10px;         /* Ajusta tamaño de fuente */
+    margin-top: 8px;         /* Ajusta posición del texto dentro del círculo */
+  }
+
+  .block-follow-img-1,
+  .block-follow-img-2 {
+    width: 100%;             /* Se adaptan al ancho del contenedor */
+    max-width: 250px;        /* Límites opcionales para no crecer demasiado */
+    margin: 0 auto;          /* Centra cada imagen */
+    display: block;
+  }
+
+  .block-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;        /* Espacio con respecto a block-1 */
+  }
+  
+  .block-follow-img-3,
+  .block-follow-img-4 {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* SECTION 3 */
+  .section-3 {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  .join-subtitle {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .join-p {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .join-part-3 {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .join-part-text {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .join-bt {
+    width: 100px;
+    padding: 8px;
+    font-size: 12px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* FOOTER */
+  .footer {
+    padding: 20px 15px;
+  }
+  
+  .content-1-ft {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .content-2-ft {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .footer-separator {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .info-ft,
+  .yoga-ft,
+  .copyright-ft {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
 }
